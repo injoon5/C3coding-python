@@ -1,4 +1,6 @@
-import random asrandom as r
+while True:
+
+      import random as r
 
       fruitlist = ['apple', 'banana', 'orange', 'mango', 'strawberry', 'hanlabong', 'grape', 'blueberry', ]
 
@@ -23,7 +25,7 @@ import random asrandom as r
           else:
               break
         
-      print("you won!",'to try again, press 1.')
+      print("you won!")
       startagain = input('press 1 to restart, press anything else to end.')
       if startagain == "1":
                        
@@ -34,3 +36,4 @@ import random asrandom as r
       
 
         
+
