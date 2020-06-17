@@ -6,16 +6,23 @@ myfruit = r.choice(fruitlist)
 
 myfruitlist = list(myfruit)
 
-random.shuffle(myfruitlist)
+r.shuffle(myfruitlist)
 
 whatfruit = ' '.join(myfruitlist)
 
 print("힌트:", whatfruit)
-a = input("answer:")
 
 
+while True:
+    a = input("answer:")
     
-    if a == whatfruit:
-        print('you won!')
+    if a != myfruit:
+        print('try again')
+        continue
         
-    else print("try again")
+    else:
+        break
+        
+print("you won!")
+
+        
