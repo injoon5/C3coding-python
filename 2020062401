@@ -1,0 +1,31 @@
+mins = 1000000000000000000000000000000000000000000000000000000000000000000000000566736585697809879070000000000000000000000000000000000000000000000000000
+maxs = 0
+
+
+while True:
+      abc = input("점수")
+      if abc == '':
+            break
+      else:
+            abc = int(abc)
+            list1.append(abc)
+            gfdg = gfdg+abc
+            gdf = gdf+1
+            
+            continue
+
+pyungyunescore = gfdg/gdf
+
+for score in list1:
+      if score < mins:
+            mins = score
+
+      if score > maxs:
+            maxs = score
+
+      
+
+
+print("입력된 점수는 ", list1,"입니다.\n평균값은", pyungyunescore)
+print("최소값은 ", mins,"입니다.\n""최소값은 ", maxs,"입니다.")
+            
