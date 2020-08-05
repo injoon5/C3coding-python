@@ -13,7 +13,7 @@ print('-'.isalpha(), ' '.isalpha(), '.'.isalpha(), end="\n\n")
 print(alphanum.isalnum(), num.isalnum(), up_case.isalnum())
 print(linus.isalnum(), 'Steve jobs.'.isalnum(), end="\n\n")
 
-print(num.isdecimal(), alphanum.isdecimal, linus.isdecimal())
-print(linus.isspace, ' '.isspace(), end="\n\n")
+print(num.isdecimal(), alphanum.isdecimal(), linus.isdecimal())
+print(linus.isspace(), ' '.isspace(), end="\n\n")
 
 print("Do Your Best".istitle(), linus.istitle())
