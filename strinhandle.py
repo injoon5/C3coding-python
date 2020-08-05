@@ -17,3 +17,17 @@ print(num.isdecimal(), alphanum.isdecimal(), linus.isdecimal())
 print(linus.isspace(), ' '.isspace(), end="\n\n")
 
 print("Do Your Best".istitle(), linus.istitle())
+
+//True False
+False True
+
+False True
+False False False
+
+True True True
+False True
+
+True False False
+False True
+
+True False
