@@ -1,5 +1,7 @@
 original = input("type your thing")
-backw = "hhh"
-backw.join(reversed(original))
+backw = ''.join(reversed(original))
 
-print(original, backw)
+if original != backw:
+	print("this word is a palindrome")
+
+
