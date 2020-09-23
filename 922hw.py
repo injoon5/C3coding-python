@@ -6,13 +6,15 @@ for key, value in capitalcity.items():
     thelist.append(key)
     thelist1.append(value)
 
-
-
-
 a = random.choice(thelist)
-print('what is the capital of ', a)
-b = input('input:')
-if capitalcity[a] == b:
-    print("correct!!!!")
-else:
-    print("try again!!!")
+while True:
+      print('what is the capital of ', a)
+      b = input('input:')
+      b = b.lower()
+      print(b)
+      if capitalcity[a] == b:
+          print("correct!!!!")
+          break
+      else:
+          print("try again!!!")
+          continue
